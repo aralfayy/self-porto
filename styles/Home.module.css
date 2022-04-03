@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Noto+Serif+Display:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 .container {
+  max-width: 90%;
   padding: 0 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main {
@@ -113,4 +118,254 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.partOne {
+  display: grid;
+  align-items: right;
+  grid-template-columns: 70% 30%;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.partOne > * {
+  flex-basis: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin-left: 80px;
+  z-index: 1;
+}
+.partTwo {
+  position: relative;
+  top: 90px;
+  text-align: left;
+}
+
+.content h1 {
+  font-size: 54pt;
+  font-weight: bold;
+  color: #f4722b;
+  letter-spacing: 4px;
+}
+.subTitle {
+  font-size: 18pt;
+  letter-spacing: 2pt;
+}
+.descP {
+  font-size: 10pt;
+  letter-spacing: 0.5pt;
+}
+.namePriv {
+  background-color: #f6e7c1;
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.sectionYear {
+  display: grid;
+  grid-template-columns: 100% 50% 50% 50%;
+  border-right-color: 2px solid black;
+}
+
+.buttonHero button {
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 40px;
+}
+.button1 {
+  border: 2px solid #f6e7c1;
+  background-color: #f6e7c1;
+  cursor: pointer;
+  color: #f4722b;
+}
+
+.button1:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.button2 {
+  border: 2px solid #f6e7c1;
+  background: none;
+  cursor: pointer;
+  color: #f4722b;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: #f6e7c1;
+}
+
+.rectangle {
+  height: 811px;
+  width: 100%;
+  background-color: #f6e7c1;
+  position: relative;
+}
+
+.textShape {
+  position: absolute;
+  display: grid;
+  top: 0px;
+  left: 100px;
+  max-width: 90%;
+  grid-template-columns: 100% 70% 70% 40%;
+  grid-template-rows: 50% 20% 20%;
+  font-family: "Montserrat", sans-serif;
+}
+.textShape h1 {
+  font-size: 64pt;
+  font-weight: bold;
+  color: #f4722b;
+}
+.fPart {
+  border-left: 5px solid black;
+}
+
+.yearsDef {
+  display: block;
+  font-size: 26pt;
+}
+
+.textShape h2 {
+  position: relative;
+  top: 70px;
+  font-size: 48pt;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2pt;
+}
+
+.par {
+  position: relative;
+  font-family: "Playfair Display", serif;
+  font-size: 16pt;
+  font-weight: 300;
+  border-left: 5px solid black;
+}
+
+.chilUI {
+  left: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.chilFE {
+  left: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.chilGD {
+  left: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.partThree {
+  display: flex;
+  margin-top: 120px;
+}
+.titleThree {
+  display: inline;
+}
+.titleThree h1 {
+  display: inline;
+  position: relative;
+  top: 7rem;
+  font-size: 62px;
+  letter-spacing: 2pt;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-family: "Playfair Display", serif;
+}
+
+.rec2 {
+  height: 350px;
+  top: 0;
+  margin: 0;
+  width: 30%;
+  background-color: #f6e7c1;
+}
+
+.partFour {
+  position: relative;
+  margin-top: 200px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.textShape2 {
+  position: absolute;
+  display: grid;
+  top: 0px;
+  left: 100px;
+  max-width: 90%;
+  grid-template-columns: 100% 100% 100%;
+  grid-template-rows: 50% 20%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.textShape2 h1 {
+  font-size: 44pt;
+  font-weight: 700;
+  color: #f4722b;
+}
+
+.textShape2 p {
+  font-size: 14pt;
+  font-weight: 700;
+  color: #f4722b;
+  text-align: center;
+}
+
+.gridThree {
+  position: relative;
+  display: grid;
+  grid-template-columns: 10fr 10fr 10fr;
+  grid-template-rows: 10fr 5fr 5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Main1 area1 area3"
+    "Main1 area2 area4";
+}
+.Main1 {
+  grid-area: Main1;
+  background-color: black;
+}
+.area1 {
+  grid-area: area1;
+  background-color: blue;
+}
+.area2 {
+  grid-area: area2;
+  background-color: green;
+}
+.area3 {
+  grid-area: area3;
+  background-color: green;
+}
+.area4 {
+  grid-area: area4;
+  background-color: blue;
+}
+
+.circ {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  display: block;
+  top: -50px;
+}
+
+.imgCirc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
