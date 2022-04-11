@@ -2,8 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Fotohero from "../assets/images/fotohero.png";
 import Topnav from "../components/topnav";
-
+import Footer from "../components/Footer";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import SkillPhoto from "../assets/images/skill.png";
 
 export default function Home() {
   return (
@@ -71,38 +73,38 @@ export default function Home() {
           <h1>Recent Work</h1>
         </div>
         <div className={styles.gridThree}>
-          <div className={styles.Main1}>halo</div>
-          <div className={styles.area1}></div>
+          <div
+            onClick={() => {
+              window.open(
+                "https://www.figma.com/proto/LcAZ1rxvX62WC01sXzLuxD/Sanbercode---Mental-Health?page-id=148%3A2135&node-id=174%3A2979&viewport=241%2C48%2C0.13&scaling=scale-down&starting-point-node-id=174%3A2979&show-proto-sidebar=1",
+                "_blank"
+              );
+            }}
+            className={styles.Main1}
+          ></div>
+
+          <div
+            onClick={() => {
+              window.open("https://double3.vercel.app/", "_blank");
+            }}
+            className={styles.area1}
+          ></div>
+
           <div className={styles.area2}></div>
           <div className={styles.area3}></div>
           <div className={styles.area4}></div>
         </div>
       </div>
       <div className={styles.partFour}>
-        <div className={styles.rectangle}></div>
-        <div className={styles.textShape2}>
-          <h1> My Skill</h1>
-          <div></div>
-          <div></div>
-          <p>
-            <div className={styles.circ}>
-              <img
-                className={styles.imgCirc}
-                width={100}
-                height={100}
-                src="https://icon-library.com/images/html-icon-png/html-icon-png-4.jpg"
-              ></img>
-            </div>
-            HTML
-          </p>
-          <p>
-            <div className={styles.circ}></div>CSS
-          </p>
-          <p>ReactJS</p>
-          <p>NextJS</p>
-          <p>Vue JS</p>
-          <p>Figma</p>
+        <div className={styles.rectangle2}>
+          {/* <Image src={SkillPhoto} alt="foto" style={{ width: "100vw" }} /> */}
         </div>
+        <div className={styles.textShape2}>
+          <h1> Skills</h1>
+        </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
