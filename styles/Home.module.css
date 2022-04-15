@@ -274,7 +274,7 @@
 
 .partThree {
   display: flex;
-  margin-top: 120px;
+  margin-top: 220px;
 }
 .titleThree {
   display: inline;
@@ -300,7 +300,7 @@
 
 .partFour {
   position: relative;
-  margin-top: 50px;
+  margin-top: 200px;
   text-align: left;
   font-family: "Montserrat", sans-serif;
 }
