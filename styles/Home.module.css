@@ -344,7 +344,7 @@
 
 .Main1 {
   grid-area: Main1;
-  background-image: url("../assets/images/healinc.png");
+  background: url("../assets/images/healinc.png");
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
