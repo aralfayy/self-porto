@@ -344,7 +344,9 @@
 
 .Main1 {
   grid-area: Main1;
-  background: url("../assets/images/healinc.png");
+  /* background-image: url("../assets/images/healinc.png"); */
+  background-color: #f6e7c1;
+
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -355,7 +357,7 @@
 .area1 {
   grid-area: area1;
   cursor: pointer;
-  background-image: url("../assets/images/Daily Kanji.png");
+  /* background-image: url("../assets/images/Daily Kanji.png"); */
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -394,7 +396,7 @@
 .rectangle2 {
   height: 110vh;
   width: 100%;
-  background-image: url("../assets/images/skill.png");
+  /* background-image: url("../assets/images/skill.png"); */
   background-size: cover;
   background-repeat: no-repeat;
 }

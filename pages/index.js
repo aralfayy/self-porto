@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import Fotohero from "../assets/images/fotohero.png";
+import Fotohero from "../public/images/fotohero.png";
 import Topnav from "../components/topnav";
 import Footer from "../components/Footer";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import SkillPhoto from "../assets/images/skill.png";
+import healinc from "../public/images/healinc.png";
+import SkillPhoto from "../public/images/skill.png";
 
 export default function Home() {
   return (
@@ -81,7 +82,10 @@ export default function Home() {
               );
             }}
             className={styles.Main1}
-          ></div>
+            style={{ backgroundImage: `url(${healinc})` }}
+          >
+            {/* <Image src={healinc} alt="foto" /> */}
+          </div>
 
           <div
             onClick={() => {
