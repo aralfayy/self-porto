@@ -25,6 +25,7 @@
 .logoWeb {
   letter-spacing: 2pt;
   color: burlywood;
+  cursor: pointer;
 }
 
 .list li {
