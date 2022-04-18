@@ -5,13 +5,13 @@ export default function Topnav() {
   return (
     <div className={styles.container}>
       <div className={styles.list}>
-        <Link href="../">
+        <Link href="../" passHref>
           <div className={styles.logoWeb}>AMMAR AL FAYYADH</div>
         </Link>
 
         <div className={styles.headerWeb}>
           <li>
-            <Link href="../AboutMe">
+            <Link href="../AboutMe" passHref>
               <a>About Me</a>
             </Link>
           </li>

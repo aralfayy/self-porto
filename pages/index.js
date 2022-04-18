@@ -17,7 +17,7 @@ export default function Home() {
         <div className={styles.partOne}>
           <div className={styles.content}>
             <h1>
-              Hi, I'm <span className={styles.namePriv}>Ammar Al Fayyadh</span>
+              Hi, Im <span className={styles.namePriv}>Ammar Al Fayyadh</span>
             </h1>
             <p className={styles.subTitle}>
               Front-End Developer | UI/UX Designer based on Bandung, Indonesia
