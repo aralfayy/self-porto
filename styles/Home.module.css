@@ -273,8 +273,9 @@
 }
 
 .partThree {
-  display: flex;
-  margin-top: 220px;
+  display: grid;
+  margin-top: 120px;
+  grid-template-columns: 10fr 90fr;
 }
 .titleThree {
   display: inline;
@@ -307,9 +308,9 @@
 .textShape2 {
   position: absolute;
   display: grid;
-  top: 0px;
-  left: 100px;
-  width: 90%;
+  /* top: 0px; */
+  /* right: -5vw; */
+  /* width: 90%; */
 
   font-family: "Montserrat", sans-serif;
 }
@@ -317,10 +318,13 @@
 .textShape2 h1 {
   font-size: 44pt;
   font-weight: 700;
-  color: #black;
+  /* color: black;
   padding-right: 10vw;
   padding-top: 90vh;
-  text-align: right;
+  text-align: right; */
+  position: absolute;
+  left: 87vw;
+  top: -10.5vw;
 }
 
 .gridThree {
@@ -388,7 +392,7 @@
 }
 
 .rectangle2 {
-  height: 810px;
+  height: 110vh;
   width: 100%;
   background-image: url("../assets/images/skill.png");
   background-size: cover;
