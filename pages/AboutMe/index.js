@@ -1,6 +1,5 @@
 import Topnav from "../../components/topnav";
 import Image from "next/image";
-import Fotopro from "../../assets/images/Frame 5.png";
 import styles from "../../styles/Home.module.css";
 import style from "../../components/styles/aboutme.module.css";
 
@@ -21,7 +20,12 @@ export default function AboutMe() {
           </p>
         </div>
         <div className={style.img}>
-          <Image src={Fotopro} alt="foto" />
+          <Image
+            src="/images/Frame 5.png"
+            alt="foto"
+            width={100}
+            height={100}
+          />
         </div>
       </div>
     </div>
