@@ -329,6 +329,7 @@
 
 .gridThree {
   position: relative;
+
   display: grid;
   grid-template-columns: 10fr 10fr 10fr;
   grid-template-rows: 10fr 10fr;
@@ -344,9 +345,7 @@
 
 .Main1 {
   grid-area: Main1;
-  /* background-image: url("../assets/images/healinc.png"); */
-  background-color: #f6e7c1;
-
+  background-image: url("/images/healinc.png");
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -357,7 +356,7 @@
 .area1 {
   grid-area: area1;
   cursor: pointer;
-  /* background-image: url("../assets/images/Daily Kanji.png"); */
+  background-image: url("/images/Daily Kanji.png");
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;

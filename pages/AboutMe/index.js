@@ -1,6 +1,5 @@
 import Topnav from "../../components/topnav";
 import Image from "next/image";
-import Fotopro from "../../public/images/Frame 5.png";
 import styles from "../../styles/Home.module.css";
 import style from "../../components/styles/aboutme.module.css";
 import Footer from "../../components/Footer";
@@ -16,13 +15,18 @@ export default function AboutMe() {
           <h1>Snippets About Me</h1>
           <p>
             Hi! My name is Ammar Al Fayyadh and I really passionated about
-            improved what I’ve done before. I love to hangout, have a chit-chat
+            improved what Ive done before. I love to hangout, have a chit-chat
             and small talk, that things really make me happy. Beside that,
             knowledge is implied in every conversation.
           </p>
-          <div className={style.img}>
-            <Image src={Fotopro} alt="foto" />
-          </div>
+        </div>
+        <div className={style.img}>
+          <Image
+            src="/images/Frame 5.png"
+            alt="foto"
+            width={100}
+            height={100}
+          />
         </div>
       </div>
       <Footer />
