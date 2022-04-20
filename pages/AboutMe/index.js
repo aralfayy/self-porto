@@ -1,8 +1,9 @@
 import Topnav from "../../components/topnav";
 import Image from "next/image";
-import Fotopro from "../../assets/images/Frame 5.png";
+import Fotopro from "../../public/images/Frame 5.png";
 import styles from "../../styles/Home.module.css";
 import style from "../../components/styles/aboutme.module.css";
+import Footer from "../../components/Footer";
 
 export default function AboutMe() {
   return (
@@ -19,11 +20,12 @@ export default function AboutMe() {
             and small talk, that things really make me happy. Beside that,
             knowledge is implied in every conversation.
           </p>
-        </div>
-        <div className={style.img}>
-          <Image src={Fotopro} alt="foto" />
+          <div className={style.img}>
+            <Image src={Fotopro} alt="foto" />
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
