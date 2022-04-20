@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import style from "../../components/styles/aboutme.module.css";
 import Footer from "../../components/Footer";
+import FotoDiri from "../../public/images/Frame 5.png";
 
 export default function AboutMe() {
   return (
@@ -22,10 +23,10 @@ export default function AboutMe() {
         </div>
         <div className={style.img}>
           <Image
-            src="/images/Frame 5.png"
+            src={FotoDiri}
             alt="foto"
-            width={100}
-            height={100}
+            // width={100}
+            // height={100}
           />
         </div>
       </div>

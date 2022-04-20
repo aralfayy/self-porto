@@ -82,9 +82,11 @@ export default function Home() {
               );
             }}
             className={styles.Main1}
-            style={{ backgroundImage: `url(${healinc})` }}
+            // style={{
+            //   backgroundImage: `url(${healinc})`,
+            // }}
           >
-            <Image src={healinc} alt="fotoheal" />
+            {/* <Image src={healinc} alt="fotoheal" /> */}
           </div>
 
           <div
