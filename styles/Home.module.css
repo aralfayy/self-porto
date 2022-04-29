@@ -395,7 +395,7 @@
 .rectangle2 {
   height: 110vh;
   width: 100%;
-  /* background-image: url("../assets/images/skill.png"); */
+  background-image: url("/images/skill.png");
   background-size: cover;
   background-repeat: no-repeat;
 }

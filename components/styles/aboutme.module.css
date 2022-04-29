@@ -3,19 +3,40 @@
 
 .container {
   /* max-width: 90%; */
-  padding: 0 15rem;
+  /* padding: 0 15rem; */
   font-family: "Montserrat", sans-serif;
 }
 
 .partOne {
-  margin: 43pt;
+  margin: auto;
 }
 .partOne h1 {
   color: #f4722b;
   letter-spacing: 1pt;
 }
+.textOne {
+  width: 90%;
+  margin: 0 4rem;
+}
 .img {
   width: 100%;
   height: auto;
   text-align: center;
+}
+.partTwo {
+  position: relative;
+  padding-top: 10rem;
+  /* max-width: 1920px;
+  max-height: 885px;
+  width: auto;
+  height: auto; */
+}
+
+.textTwo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
 }
